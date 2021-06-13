@@ -1,0 +1,26 @@
+* {
+    color: skyblue;
+}
+
+body {
+    font-family:'Architects Daughter', cursive;
+}
+
+table {
+    border: 3px double black;
+    table-layout: fixed;
+    width:100%;
+    border-collapse:collapse;
+    margin:20px 20px;
+    padding: 20px;
+    background-color: azure;
+}
+
+th, td {
+    padding: 20px;
+}
+
+thead th, tfoot th, tfoot td {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+    border: 3px solid purple;
+  }
